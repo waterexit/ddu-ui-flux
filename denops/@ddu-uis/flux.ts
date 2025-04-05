@@ -57,7 +57,7 @@ type Params = {
 
 export class Ui extends BaseUi<Params> {
     NAME_SPACE = "hl-ui-flux-group";
-    #bufferName = "ddu-ui-flux";
+    #bufferName = "_ddu-ui-flux";
     #popupId: number = -1;
     #items: DduItem[] = [];
     #nameSpaceId: unknown;
